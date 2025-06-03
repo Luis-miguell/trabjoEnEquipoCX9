@@ -7,5 +7,39 @@ h1 {
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
-    color: red;
+    color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border: 25px solid  #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    
+}
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+button{
+    padding: 10px;
+    background-color: powderblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: cornflowerblue;
 }
