@@ -1,4 +1,4 @@
-document.tittle = "Proyecto Colaborativo - CX9"
+document.title = "Proyecto Colaborativo - CX9"
 
 let user = document.getElementById("User")
 let pass = document.getElementById("Password")
